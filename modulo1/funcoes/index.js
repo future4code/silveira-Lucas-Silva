@@ -1,3 +1,4 @@
+
 //Exercícios de interpretação de código
 
 //1.a) O que vai ser impresso no console?
@@ -114,3 +115,58 @@ const comparar = function(a ,b) {
 }
 
 mensagem("vou embora.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Warm Up 18/02/2022
+
+const minhaFuncao = (array) => {
+    return array[array.length]}
+
+console.log(minhaFuncao([1, 2, 3]))
+
+function fora(x, y) {
+        function dentro() {
+            let z = x + y
+                return z;
+        }
+        return z;
+}
+console.log(fora(4, 4))
+
+let primeiraFuncao = (primeiroNumero, segundoNumero) => {
+    return primeiroNumero + segundoNumero
+};
+let segundaFuncao = (primeiroNumero, segundoNumero) => {
+    return primeiroNumero % segundoNumero
+};
+let terceiraFuncao = (primeiroNumero, segundoNumero) => {
+    let primeiroValor = primeiraFuncao(primeiroNumero, segundoNumero)
+    let segundoValor = segundaFuncao(primeiroNumero, segundoNumero)
+    return primeiroValor + segundoValor
+};
+console.log(terceiraFuncao(2, 1))
